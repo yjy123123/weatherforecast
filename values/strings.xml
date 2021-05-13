@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">天气预报</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="pref_list_city">
+        <item>长沙</item>
+        <item>北京</item>
+        <item>上海</item>
+    </string-array>
+    <string-array name="pref_list_city_value">
+        <item>长沙</item>
+        <item>北京</item>
+        <item>上海</item>
+    </string-array>
+</resources>

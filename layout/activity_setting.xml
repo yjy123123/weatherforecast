@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+   >
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:ellipsize="marquee"
+        android:gravity="center_vertical"
+
+        android:singleLine="true"
+        android:text="   天气预报"
+
+        android:textColor="#ffffffff"
+        android:textSize="20sp"
+        android:background="@color/colorPrimary"/>
+
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/setting_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </FrameLayout>
+</LinearLayout>

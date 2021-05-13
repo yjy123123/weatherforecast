@@ -1,0 +1,21 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <ListPreference android:key="pre_location"
+        android:title="Location"
+        android:defaultValue="长沙"
+        android:summary="长沙"
+        android:layout="@layout/setting"
+        android:entries="@array/pref_list_city"
+        android:entryValues="@array/pref_list_city_value"/>
+    <Preference android:key="pre_temunit"
+        android:title="Temperature Units"
+        android:defaultValue="Metric"
+        android:summary="Metric"
+        android:layout="@layout/setting"/>
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="pre_notification"
+        android:title="Weather Notifications"
+        android:layout="@layout/setting"
+        />
+</PreferenceScreen>
